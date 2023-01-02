@@ -7,13 +7,14 @@ const sayHello = (name) => {
   return `hello ${name}`;
 };
 
-const addToArray = (input) => {
-  let result = [];
-  result.push(input);
-  return result;
+const addToAnyArray = (inputArray, input) => {
+  if (input) {
+    inputArray.push(input);
+  }
+  return inputArray;
 };
 
 module.exports = {
   sayHello,
-  addToArray,
+  addToAnyArray,
 };
