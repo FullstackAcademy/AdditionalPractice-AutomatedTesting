@@ -1,6 +1,6 @@
 const functions = require("../functions/yourFunctions");
 const { expect } = require("chai");
-describe("Our tests for your funcitons", function () {
+describe("Our tests for your functions", function () {
   describe("addNames", function () {
     xit("function addNames should return an array", function () {
       const data = [

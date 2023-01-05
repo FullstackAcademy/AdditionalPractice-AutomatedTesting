@@ -29,7 +29,7 @@ describe("Your tests for our functions", function () {
       expect(result.length).to.equal(1);
     });
 
-    xit("calling the function once with an input should return an array with a one element, the element passed through as an arugment", function () {
+    xit("calling the function once with an input should return an array with a one element, the element passed through as an argument", function () {
       const arr = [];
       const result = functions.addToAnyArray(arr, "argument");
       expect(result[0]).to.equal("argument");
