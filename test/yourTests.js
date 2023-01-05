@@ -7,6 +7,6 @@ describe("Your tests for our functions", function () {
   });
 
   describe("Function addToAnyArray Tests", function () {
-    //Here you will write tests for the addToArray function
+    //Here you will write tests for the addToAnyArray function
   });
 });
